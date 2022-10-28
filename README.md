@@ -4,7 +4,7 @@ Este proyecto tiene como objetivo mostrar mi experiencia en diseño y desarrollo
 
 ## Acerca del Proyecto
 
-![Portfolio screenshot](https://user-images.githubusercontent.com/69361901/197349884-9ca0b531-cbe4-4bad-800e-e0c07686c42b.png)
+![Portfolio screenshot](https://user-images.githubusercontent.com/69361901/198703264-3613cf1e-8004-44af-98b2-7d6b4b8df039.png)
 
 El proyecto consta de tres secciones: Qué hago, Quién soy y Mis trabajos realizados. Utilicé una grilla de 3x3 para mostrar una selección de mis trabajos. Posicioné subtítulos en relación a su sección para colocar la línea de marca detrás de la imagen. Utilicé la metodología BEM para los selectores de CSS.
 
