@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Alf Fonti</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+    <script src="https://kit.fontawesome.com/12f6caba9e.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,900|Source+Sans+Pro:300,500,900&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css'>
+    <script src='js/index.js' defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <button class='nav-toggle' aria-label='Toggle navigation'>
+            <span class='hamburger'></span>
+        </button>
+        <nav class='nav'>
+            <ul class='nav__list'>
+                <li class='nav__item'><a href='#home' class='nav__link'>Inicio</a></li>
+                <li class='nav__item'><a href='#services' class='nav__link'>Mis servicios</a></li>
+                <li class='nav__item'><a href='#about' class='nav__link'>Sobre mí</a></li>
+                <li class='nav__item'><a href='#work' class='nav__link'>Mis proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section class='intro' id='home'>
+            <h1 class='section__title section__title--intro'>
+                Hola, soy <strong>Alf Fonti</strong>
+            </h1>
+            <p class='section__subtitle section__subtitle--intro'>Desarrollador web</p>
+            <img src='img/alffonti-dev-01.jpg' alt='Alf Fonti smiling' class='intro__img' />
+        </section>
+
+        <!-- My services -->
+        <section class='my-services' id='services'>
+            <h2 class='section__title section__title--services'>Qué hago</h2>
+            <div class='services'>
+                <div class='service'>
+                    <h3>Diseño + Desarrollo</h3>
+                    <p>Utilizo un estilo moderno y las mejores prácticas de experiencia de usuario para crear sitios web
+                        atractivos y valiosos para mis clientes.</p>
+                </div> <!-- / service  -->
+                <div class='service'>
+                    <h3>Comercio Electrónico</h3>
+                    <p>Construyo tiendas virtuales de fácil manejo para productos físicos o servicios digitales como
+                        cursos online, ebooks, etc.</p>
+                </div> <!-- / service  -->
+                <div class='service'>
+                    <h3>WordPress</h3>
+                    <p>Proporciono personalizaciones a medida para sitios web de WordPress. Me aseguro de que los sitios
+                        que desarrollo sean robustos, confiables y efectivos.</p>
+                </div> <!-- / service  -->
+            </div> <!-- / services  -->
+            <a href='#work' class='btn'>Ver mis proyectos</a>
+        </section>
+
+        <!-- About Me -->
+        <section class='about-me' id='about'>
+            <h2 class='section__title section__title--about'>Quién soy</h2>
+            <p class='section__subtitle section__subtitle--about'>Diseñador & desarrollador</p>
+            <div class='about-me__body'>
+                <p>Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus
+                    actividades a través de Internet. Actualmente trabajo en <a
+                        href="https://studiosmate.com/">Studiosmate</a>, donde creo y mantengo diferentes productos o
+                    servicios para nuestros clientes. Me enfoco en mejorar la experiencia del usuario prestando mucha
+                    atención a los detalles.</p>
+                <p>Soy una persona proacttiva y comunicativa a la que le gusta usar jerga no técnica cuando hablo con
+                    mis clientes y me aseguro de que comprendan todos los aspectos del proceso de diseño web.</p>
+            </div>
+            <img src='img/alffonti-dev-02.jpg' alt='Alf Fonti tomando mate' class='about-me__img' />
+        </section>
+
+        <!-- My work -->
+        <section class='my-work' id='work'>
+            <h2 class='section__title section__title--work'>Mis proyectos</h2>
+            <p class='section__subtitle section__subtitle--work'>Algunos de mis trabajos realizados</p>
+            <div class='portfolio'>
+                <!-- Portfolio item 01 -->
+                <a id='portfolio-01' href='portfolio-item-01.html' class='portfolio__item'>
+                    <img src='img/portfolio-01.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 02 -->
+                <a id='portfolio02' href='portfolio-item-02.html' class='portfolio__item'>
+                    <img src='img/portfolio-02.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href='portfolio-item-03.html' class='portfolio__item'>
+                    <img src='img/portfolio-03.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 04 -->
+                <a href='portfolio-item-04.html' class='portfolio__item'>
+                    <img src='img/portfolio-04.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 05 -->
+                <a href='portfolio-item-05.html' class='portfolio__item'>
+                    <img src='img/portfolio-05.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 06 -->
+                <a href='portfolio-item-06.html' class='portfolio__item'>
+                    <img src='img/portfolio-06.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 07 -->
+                <a href='portfolio-item-07.html' class='portfolio__item'>
+                    <img src='img/portfolio-07.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 08 -->
+                <a href='portfolio-item-08.html' class='portfolio__item'>
+                    <img src='img/portfolio-08.jpg' alt='' class='portfolio__img' />
+                </a>
+                <!-- Portfolio item 09 -->
+                <a id='portfolio-09' href='portfolio-item-09.html' class='portfolio__item'>
+                    <img src='img/portfolio-09.jpg' alt='' class='portfolio__img' />
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class='footer'>
+        <a href='mailto:alffonti@gmail.com' class='footer__link'>alffonti@gmail.com</a>
+        <ul class='social-list'>
+            <li class='social-list__item'>
+                <a href='https://www.facebook.com/alffontii' class='social-list__link'>
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class='social-list__item'>
+                <a href='https://www.instagram.com/alphfonti/' class='social-list__link'>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class='social-list__item'>
+                <a href='https://twitter.com/AlphFonti' class='social-list__link'>
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class='social-list__item'>
+                <a href='https://github.com/Alffonti' class='social-list__link'>
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
