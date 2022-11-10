@@ -553,7 +553,7 @@ header {
     /* Full width */
     height: 90%;
     /* Full height */
-    overflow: hidden;
+    overflow: visible;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
