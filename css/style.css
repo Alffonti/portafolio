@@ -383,6 +383,7 @@ header {
 }
 
 .about-me__img {
+    display: none;
     box-shadow: var(--bs);
 }
 
@@ -416,6 +417,7 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+        display: block;
     }
 }
 
@@ -557,7 +559,7 @@ header {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     /* Location of the box */
     left: 0;
     top: 0;
@@ -632,7 +634,7 @@ header {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
     .modal {
-        padding-top: 40px;
+        /* padding-top: 40px; */
     }
 
     .modal-content {

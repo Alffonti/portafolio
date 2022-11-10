@@ -18,7 +18,7 @@ const modal = document.getElementById("modal01");
 const img = document.getElementById("portfolio-01");
 const modalImg = document.getElementById("img01");
 img.onclick = function () {
-    modal.style.display = "block";
+    modal.style.display = "grid";
     modalImg.src = this.src;
 }
 
@@ -38,7 +38,7 @@ const modal02 = document.getElementById("modal02");
 const img02 = document.getElementById("portfolio-02");
 const modalImg02 = document.getElementById("img01");
 img02.onclick = function () {
-    modal02.style.display = "block";
+    modal02.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -56,7 +56,7 @@ const modal03 = document.getElementById("modal03");
 const img03 = document.getElementById("portfolio-03");
 const modalImg03 = document.getElementById("img01");
 img03.onclick = function () {
-    modal03.style.display = "block";
+    modal03.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -74,7 +74,7 @@ const modal04 = document.getElementById("modal04");
 const img04 = document.getElementById("portfolio-04");
 const modalImg04 = document.getElementById("img01");
 img04.onclick = function () {
-    modal04.style.display = "block";
+    modal04.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -92,7 +92,7 @@ const modal05 = document.getElementById("modal05");
 const img05 = document.getElementById("portfolio-05");
 const modalImg05 = document.getElementById("img01");
 img05.onclick = function () {
-    modal05.style.display = "block";
+    modal05.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -110,7 +110,7 @@ const modal06 = document.getElementById("modal06");
 const img06 = document.getElementById("portfolio-06");
 const modalImg06 = document.getElementById("img01");
 img06.onclick = function () {
-    modal06.style.display = "block";
+    modal06.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -128,7 +128,7 @@ const modal07 = document.getElementById("modal07");
 const img07 = document.getElementById("portfolio-07");
 const modalImg07 = document.getElementById("img01");
 img07.onclick = function () {
-    modal07.style.display = "block";
+    modal07.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -146,7 +146,7 @@ const modal08 = document.getElementById("modal08");
 const img08 = document.getElementById("portfolio-08");
 const modalImg08 = document.getElementById("img01");
 img08.onclick = function () {
-    modal08.style.display = "block";
+    modal08.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
@@ -164,7 +164,7 @@ const modal09 = document.getElementById("modal09");
 const img09 = document.getElementById("portfolio-09");
 const modalImg09 = document.getElementById("img01");
 img09.onclick = function () {
-    modal09.style.display = "block";
+    modal09.style.display = "grid";
 }
 
 // Get the <span> element that closes the modal
