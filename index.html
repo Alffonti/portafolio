@@ -1,297 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio de Alf Fonti</title>
     <!-- Primary Meta Tags -->
     <title>Alf Fonti</title>
-    <meta name="title" content="Alf Fonti">
-    <meta name="description"
-        content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet.">
+    <meta name="title" content="Alf Fonti" />
+    <meta
+      name="description"
+      content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet."
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://portafolio-por-alffonti.netlify.app/">
-    <meta property="og:title" content="Alf Fonti">
-    <meta property="og:description"
-        content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet.">
-    <meta property="og:image" content="https://portafolio-por-alffonti.netlify.app/img/og-image.png">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://portafolio-por-alffonti.netlify.app/"
+    />
+    <meta property="og:title" content="Alf Fonti" />
+    <meta
+      property="og:description"
+      content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet."
+    />
+    <meta
+      property="og:image"
+      content="https://portafolio-por-alffonti.netlify.app/img/og-image.png"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://portafolio-por-alffonti.netlify.app/">
-    <meta property="twitter:title" content="Alf Fonti">
-    <meta property="twitter:description"
-        content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet.">
-    <meta property="twitter:image" content="https://portafolio-por-alffonti.netlify.app/img/og-image.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://portafolio-por-alffonti.netlify.app/"
+    />
+    <meta property="twitter:title" content="Alf Fonti" />
+    <meta
+      property="twitter:description"
+      content="Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus actividades a través de Internet."
+    />
+    <meta
+      property="twitter:image"
+      content="https://portafolio-por-alffonti.netlify.app/img/og-image.png"
+    />
 
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
-    <script src="https://kit.fontawesome.com/12f6caba9e.js" crossorigin="anonymous"></script>
     <link
-        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,900|Source+Sans+Pro:300,500,900&display=swap"
-        rel="stylesheet">
-    <link rel='stylesheet' href='css/style.css'>
-    <script src='js/index.js' defer></script>
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/12f6caba9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,900|Source+Sans+Pro:300,500,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js" defer></script>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <button class='nav-toggle' aria-label='Toggle navigation'>
-            <span class='hamburger'></span>
-        </button>
-        <nav class='nav'>
-            <ul class='nav__list'>
-                <li class='nav__item'><a href='#home' class='nav__link'>Inicio</a></li>
-                <li class='nav__item'><a href='#services' class='nav__link'>Mis servicios</a></li>
-                <li class='nav__item'><a href='#about' class='nav__link'>Sobre mí</a></li>
-                <li class='nav__item'><a href='#work' class='nav__link'>Mis proyectos</a></li>
-            </ul>
-        </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Mis servicios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Sobre mí</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mis proyectos</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <!-- Introduction -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hola, soy <strong>Alf Fonti</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          Desarrollador web
+        </p>
+        <img
+          src="img/alffonti-dev-01.jpg"
+          alt="Alf Fonti smiling"
+          class="intro__img"
+        />
+      </section>
 
-        <!-- Introduction -->
-        <section class='intro' id='home'>
-            <h1 class='section__title section__title--intro'>
-                Hola, soy <strong>Alf Fonti</strong>
-            </h1>
-            <p class='section__subtitle section__subtitle--intro'>Desarrollador web</p>
-            <img src='img/alffonti-dev-01.jpg' alt='Alf Fonti smiling' class='intro__img' />
-        </section>
+      <!-- My services -->
+      <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Qué hago</h2>
+        <div class="services">
+          <div class="service">
+            <h3>Diseño + Desarrollo</h3>
+            <p>
+              Utilizo un estilo moderno y las mejores prácticas de experiencia
+              de usuario para crear sitios web atractivos y valiosos para mis
+              clientes.
+            </p>
+          </div>
+          <!-- / service  -->
+          <div class="service">
+            <h3>Comercio Electrónico</h3>
+            <p>
+              Construyo tiendas virtuales de fácil manejo para productos físicos
+              o servicios digitales como cursos online, ebooks, etc.
+            </p>
+          </div>
+          <!-- / service  -->
+          <div class="service">
+            <h3>WordPress</h3>
+            <p>
+              Proporciono personalizaciones a medida para sitios web de
+              WordPress. Me aseguro de que los sitios que desarrollo sean
+              robustos, confiables y efectivos.
+            </p>
+          </div>
+          <!-- / service  -->
+        </div>
+        <!-- / services  -->
+        <a href="#work" class="btn">Ver mis proyectos</a>
+      </section>
 
-        <!-- My services -->
-        <section class='my-services' id='services'>
-            <h2 class='section__title section__title--services'>Qué hago</h2>
-            <div class='services'>
-                <div class='service'>
-                    <h3>Diseño + Desarrollo</h3>
-                    <p>Utilizo un estilo moderno y las mejores prácticas de experiencia de usuario para crear sitios web
-                        atractivos y valiosos para mis clientes.</p>
-                </div> <!-- / service  -->
-                <div class='service'>
-                    <h3>Comercio Electrónico</h3>
-                    <p>Construyo tiendas virtuales de fácil manejo para productos físicos o servicios digitales como
-                        cursos online, ebooks, etc.</p>
-                </div> <!-- / service  -->
-                <div class='service'>
-                    <h3>WordPress</h3>
-                    <p>Proporciono personalizaciones a medida para sitios web de WordPress. Me aseguro de que los sitios
-                        que desarrollo sean robustos, confiables y efectivos.</p>
-                </div> <!-- / service  -->
-            </div> <!-- / services  -->
-            <a href='#work' class='btn'>Ver mis proyectos</a>
-        </section>
+      <!-- About Me -->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Quién soy</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Diseñador & desarrollador
+        </p>
+        <div class="about-me__body">
+          <p>
+            Soy un desarrollador web que ayuda a las personas y a las pequeñas
+            empresas a expandir sus actividades a través de Internet. Trabajo de
+            manera autónoma creando y manteniendo diversos productos o servicios
+            para distintos clientes. Me enfoco en mejorar la experiencia del
+            usuario prestando mucha atención a los detalles.
+          </p>
+          <p>
+            Soy una persona proacttiva y comunicativa a la que le gusta usar
+            jerga no técnica cuando hablo con mis clientes y me aseguro de que
+            comprendan todos los aspectos del proceso de diseño web.
+          </p>
+        </div>
+        <img
+          src="img/alffonti-dev-02.jpg"
+          alt="Alf Fonti tomando mate"
+          class="about-me__img"
+        />
+      </section>
 
-        <!-- About Me -->
-        <section class='about-me' id='about'>
-            <h2 class='section__title section__title--about'>Quién soy</h2>
-            <p class='section__subtitle section__subtitle--about'>Diseñador & desarrollador</p>
-            <div class='about-me__body'>
-                <p>Soy un desarrollador web que ayuda a las personas y a las pequeñas empresas a expandir sus
-                    actividades a través de Internet. Trabajo de manera autónoma creando y manteniendo diversos
-                    productos o
-                    servicios para distintos clientes. Me enfoco en mejorar la experiencia del usuario prestando mucha
-                    atención a los detalles.</p>
-                <p>Soy una persona proacttiva y comunicativa a la que le gusta usar jerga no técnica cuando hablo con
-                    mis clientes y me aseguro de que comprendan todos los aspectos del proceso de diseño web.</p>
-            </div>
-            <img src='img/alffonti-dev-02.jpg' alt='Alf Fonti tomando mate' class='about-me__img' />
-        </section>
-
-        <!-- My work -->
-        <section class='my-work' id='work'>
-            <h2 class='section__title section__title--work'>Mis proyectos</h2>
-            <p class='section__subtitle section__subtitle--work'>Algunos de mis trabajos realizados</p>
-            <div class='portfolio'>
-                <!-- Portfolio item 01 -->
-                <div id='portfolio-01' class='portfolio__item'>
-                    <img src='img/portfolio-01.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 02 -->
-                <div id='portfolio-02' class='portfolio__item'>
-                    <img src='img/portfolio-02.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 03 -->
-                <div id='portfolio-03' class='portfolio__item'>
-                    <img src='img/portfolio-03.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 04 -->
-                <div id='portfolio-04' class='portfolio__item'>
-                    <img src='img/portfolio-04.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 05 -->
-                <div id='portfolio-05' class='portfolio__item'>
-                    <img src='img/portfolio-05.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 06 -->
-                <div id='portfolio-06' class='portfolio__item'>
-                    <img src='img/portfolio-06.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 07 -->
-                <div id='portfolio-07' class='portfolio__item'>
-                    <img src='img/portfolio-07.jpg' alt='' class='portfolio__img' />
-                </div>
-                <!-- Portfolio item 08 -->
-                <a id='portfolio-08' class='portfolio__item'>
-                    <img src='img/portfolio-08.jpg' alt='' class='portfolio__img' />
-                </a>
-                <!-- Portfolio item 09 -->
-                <div id='portfolio-09' class='portfolio__item'>
-                    <img src='img/portfolio-09.jpg' alt='' class='portfolio__img' />
-                </div>
-            </div>
-        </section>
-
+      <!-- My work -->
+      <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Mis proyectos</h2>
+        <p class="section__subtitle section__subtitle--work">
+          Algunos de mis trabajos realizados
+        </p>
+        <div class="portfolio">
+          <!-- Portfolio item 01 -->
+          <div id="portfolio-01" class="portfolio__item">
+            <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 02 -->
+          <div id="portfolio-02" class="portfolio__item">
+            <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 03 -->
+          <div id="portfolio-03" class="portfolio__item">
+            <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 04 -->
+          <div id="portfolio-04" class="portfolio__item">
+            <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 05 -->
+          <div id="portfolio-05" class="portfolio__item">
+            <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 06 -->
+          <div id="portfolio-06" class="portfolio__item">
+            <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 07 -->
+          <div id="portfolio-07" class="portfolio__item">
+            <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+          </div>
+          <!-- Portfolio item 08 -->
+          <a id="portfolio-08" class="portfolio__item">
+            <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+          </a>
+          <!-- Portfolio item 09 -->
+          <div id="portfolio-09" class="portfolio__item">
+            <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- The Modals -->
     <!-- Modal 01 -->
     <div id="modal01" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <!-- <img class="modal-content" id="img01"> -->
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Wings of Love <strong> Bird Haven</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>centro de adopción</p>
-                <img src='img/portfolio-01.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <!-- <img class="modal-content" id="img01"> -->
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Wings of Love <strong> Bird Haven</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            centro de adopción
+          </p>
+          <img src="img/portfolio-01.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Wings of Love Bird Haven es un albergue para aves que necesitan refugio o reubicación.</p>
-                <p>Este proyecto utiliza un widget de donación donde los visitantes pueden seleccionar diferentes
-                    opciones
-                    de donación. Tres formularios fueron añadidos a la web con diferentes finalidades: voluntariado,
-                    renuncia (entrega) y adopción.</p>
-                <a href='https://bird-haven.org/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+        <div class="portfolio-item-individual">
+          <p>
+            Wings of Love Bird Haven es un albergue para aves que necesitan
+            refugio o reubicación.
+          </p>
+          <p>
+            Este proyecto utiliza un widget de donación donde los visitantes
+            pueden seleccionar diferentes opciones de donación. Tres formularios
+            fueron añadidos a la web con diferentes finalidades: voluntariado,
+            renuncia (entrega) y adopción.
+          </p>
+          <a href="https://bird-haven.org/" class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 02 -->
     <div id="modal02" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Perfect <strong> Pass</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>vitaminas y suplementos</p>
-                <img src='img/portfolio-02.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Perfect <strong> Pass</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            vitaminas y suplementos
+          </p>
+          <img src="img/portfolio-02.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Perfect Pass es un fabricante de vitaminas, suplementos y productos naturales para la salud.</p>
-                <p>El
-                    propósito principal de el sitio web es proporcionar a los clientes las últimas investigaciones
-                    científicas sobre los suplementos prebióticos y los suplementos probióticos.</p>
-                <a href='https://perfectpassvitamins.com' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+        <div class="portfolio-item-individual">
+          <p>
+            Perfect Pass es un fabricante de vitaminas, suplementos y productos
+            naturales para la salud.
+          </p>
+          <p>
+            El propósito principal de el sitio web es proporcionar a los
+            clientes las últimas investigaciones científicas sobre los
+            suplementos prebióticos y los suplementos probióticos.
+          </p>
+          <a
+            href="https://perfectpassvitamins.com"
+            class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 03 -->
     <div id="modal03" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Jeremiah <strong> Campbell</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>podcast</p>
-                <img src='img/portfolio-03.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Jeremiah <strong> Campbell</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">podcast</p>
+          <img src="img/portfolio-03.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Jeremiah es un psicoterapeuta relacional.</p>
-                <p>Este proyecto tiene como objetivo ayudar a Jeremiah Campbell a aumentar su audiencia. Los visitantes
-                    pueden escuchar su podcast directamente en el sitio web.</p>
-                <a href='https://jeremiahcampbell.netlify.app/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+        <div class="portfolio-item-individual">
+          <p>Jeremiah es un psicoterapeuta relacional.</p>
+          <p>
+            Este proyecto tiene como objetivo ayudar a Jeremiah Campbell a
+            aumentar su audiencia. Los visitantes pueden escuchar su podcast
+            directamente en el sitio web.
+          </p>
+          <a
+            href="https://jeremiahcampbell.netlify.app/"
+            class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 04 -->
     <div id="modal04" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    DJ <strong> Doublee</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>entretenimiento</p>
-                <img src='img/portfolio-04.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            DJ <strong> Doublee</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            entretenimiento
+          </p>
+          <img src="img/portfolio-04.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Esta página web se creó para ayudar a Dj Doublee a expandir sus servicios en el área metropolitana de
-                    Nueva York. Un formulario sencillo con los datos pertinentes para facilitar a los clientes la
-                    reserva de
-                    eventos y distintas actividades.</p>
-                <p>Ahora ha organizado fiestas no solo en Nueva Jersey y Connecticut,
-                    sino
-                    también en Miami y Texas.</p>
+        <div class="portfolio-item-individual">
+          <p>
+            Esta página web se creó para ayudar a Dj Doublee a expandir sus
+            servicios en el área metropolitana de Nueva York. Un formulario
+            sencillo con los datos pertinentes para facilitar a los clientes la
+            reserva de eventos y distintas actividades.
+          </p>
+          <p>
+            Ahora ha organizado fiestas no solo en Nueva Jersey y Connecticut,
+            sino también en Miami y Texas.
+          </p>
 
-                <a href='https://djdoublee.com/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+          <a href="https://djdoublee.com/" class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 05 -->
     <div id="modal05" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    <strong> Pave-It</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>construcción</p>
-                <img src='img/portfolio-05.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            <strong> Pave-It</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">construcción</p>
+          <img src="img/portfolio-05.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Pave-It es una empresa de construcción que brinda servicios de reparación de asfalto y concreto en el
-                    norte Texas.</p>
-                <p>Este proyecto tiene como objetivo expandir los servicios de reparación de asfalto y concreto que
-                    brinda
-                    Pave-It alrededor del área metropolitana de
-                    DFW. Imágenes significativas y servicios particulares fueron añadidos a zonas de servicios
-                    específicas
-                    para ofrecer mejores soluciones a dichas comunidades.</p>
+        <div class="portfolio-item-individual">
+          <p>
+            Pave-It es una empresa de construcción que brinda servicios de
+            reparación de asfalto y concreto en el norte Texas.
+          </p>
+          <p>
+            Este proyecto tiene como objetivo expandir los servicios de
+            reparación de asfalto y concreto que brinda Pave-It alrededor del
+            área metropolitana de DFW. Imágenes significativas y servicios
+            particulares fueron añadidos a zonas de servicios específicas para
+            ofrecer mejores soluciones a dichas comunidades.
+          </p>
 
-                <a href='https://paveitdfw.com/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+          <a href="https://paveitdfw.com/" class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 06 -->
     <div id="modal06" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Pedro <strong> Por el Mundo</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>fotografía</p>
-                <img src='img/portfolio-06.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Pedro <strong> Por el Mundo</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">fotografía</p>
+          <img src="img/portfolio-06.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Pedro es un fotógrafo freelance internacional para las mejores publicaciones especializadas en
-                    viajes.
-                    Para muchos, el más inspirador fotógrafo free-lance internacional de esta especialidad, más de 8
-                    años
-                    descubriéndonos el mundo con su cámara. </p>
+        <div class="portfolio-item-individual">
+          <p>
+            Pedro es un fotógrafo freelance internacional para las mejores
+            publicaciones especializadas en viajes. Para muchos, el más
+            inspirador fotógrafo free-lance internacional de esta especialidad,
+            más de 8 años descubriéndonos el mundo con su cámara.
+          </p>
 
-                <a href='https://pedroporelmundo.netlify.app/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+          <a
+            href="https://pedroporelmundo.netlify.app/"
+            class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 12
@@ -321,77 +426,95 @@
 
     <!-- Modal 07 -->
     <div id="modal07" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Wave<strong> Dammit</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>tienda virtual</p>
-                <img src='img/portfolio-07.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Wave<strong> Dammit</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            tienda virtual
+          </p>
+          <img src="img/portfolio-07.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Wave Dammit es dirigido por un entusiasta de Jeep que ofrece ropa y accesorios a los fanáticos y
-                    amantes
-                    de la cultura Jeep.</p>
-                <p>Este proyecto presenta un diseño simple con una paleta de colores distintiva.</p>
+        <div class="portfolio-item-individual">
+          <p>
+            Wave Dammit es dirigido por un entusiasta de Jeep que ofrece ropa y
+            accesorios a los fanáticos y amantes de la cultura Jeep.
+          </p>
+          <p>
+            Este proyecto presenta un diseño simple con una paleta de colores
+            distintiva.
+          </p>
 
-                <a href='https://wavedammit.co/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+          <a href="https://wavedammit.co/" class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
 
     <!-- Modal 08 -->
     <div id="modal08" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Puddle Jumpers<strong> Design</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>tienda online</p>
-                <img src='img/portfolio-08.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">
+            Puddle Jumpers<strong> Design</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            tienda online
+          </p>
+          <img src="img/portfolio-08.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>Puddle Jumpers Design es operado por una maestra de preescolar que, además de enseñar, también diseña
-                    camisetas de vinilo personalizadas.</p>
-                <p>Este proyecto presenta un diseño de comercio electrónico simple con diferentes categorías y
-                    colecciones.
-                    Jenn ha logrado vender sus primeras camisetas en el Reino Unido y ahora puede monetizar su
-                    pasatiempo.
-                </p>
+        <div class="portfolio-item-individual">
+          <p>
+            Puddle Jumpers Design es operado por una maestra de preescolar que,
+            además de enseñar, también diseña camisetas de vinilo
+            personalizadas.
+          </p>
+          <p>
+            Este proyecto presenta un diseño de comercio electrónico simple con
+            diferentes categorías y colecciones. Jenn ha logrado vender sus
+            primeras camisetas en el Reino Unido y ahora puede monetizar su
+            pasatiempo.
+          </p>
 
-                <a href='https://puddlejumperdesigns.online/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+          <a
+            href="https://puddlejumperdesigns.online/"
+            class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
-
 
     <!-- Modal 09 -->
     <div id="modal09" class="modal">
-        <div class='modal-content'>
-            <span class="close">&times;</span>
-            <section class='intro intro--portfolio-item'>
-                <h1 class='section__title section__title--intro'>
-                    Universidad <strong> Autónoma</strong>
-                </h1>
-                <p class='section__subtitle section__subtitle--intro'>educación</p>
-                <img src='img/portfolio-09.jpg' alt='' class='intro__img' />
-            </section>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <section class="intro intro--portfolio-item">
+          <h1 class="section__title section__title--intro">KegParts</h1>
+          <p class="section__subtitle section__subtitle--intro">
+            tienda online
+          </p>
+          <img src="img/portfolio-09.jpg" alt="" class="intro__img" />
+        </section>
 
-            <div class='portfolio-item-individual'>
-                <p>La Universidad Autonoma Garbiel René Moreno es el centro de estudios superiores más grande del
-                    departamento de Santa Cruz. Acoge en sus aulas a más de 100.000 estudiantes y está presente en todo
-                    el
-                    territorio departamental, con unidades académicas, tecnológicas, centros de investigación y cursos a
-                    distancia.</p>
-                <a href='https://uagrm.netlify.app/' class='btn portfolio-item-btn'>Ver proyecto</a>
-            </div>
+        <div class="portfolio-item-individual">
+          <p>
+            KegParts es una empresa manufactora de piezas de barriles y
+            equipamiento técnico para la elaboración de cerveza o dispensación
+            en sistemas refrigerados.
+          </p>
+          <a href="https://kegparts.net/" class="btn portfolio-item-btn"
+            >Ver proyecto</a
+          >
         </div>
+      </div>
     </div>
-
 
     <!-- Modal 10
     <div id="modal10" class="modal">
@@ -413,34 +536,39 @@
         </div>
     </div> -->
 
-
-
     <!-- Footer -->
-    <footer class='footer'>
-        <a href='mailto:alffonti@gmail.com' class='footer__link'>alffonti@gmail.com</a>
-        <ul class='social-list'>
-            <li class='social-list__item'>
-                <a href='https://www.facebook.com/alffontii' class='social-list__link'>
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li class='social-list__item'>
-                <a href='https://www.instagram.com/alphfonti/' class='social-list__link'>
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-            <li class='social-list__item'>
-                <a href='https://twitter.com/AlphFonti' class='social-list__link'>
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-            <li class='social-list__item'>
-                <a href='https://github.com/Alffonti' class='social-list__link'>
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-        </ul>
+    <footer class="footer">
+      <a href="mailto:alffonti@gmail.com" class="footer__link"
+        >alffonti@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.facebook.com/alffontii"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/alphfonti/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://twitter.com/AlphFonti" class="social-list__link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/Alffonti" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>
