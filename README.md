@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo mostrar mi experiencia en diseño y desarrollo
 
 El proyecto consta de tres secciones: Qué hago, Quién soy y Mis trabajos realizados. Utilicé una grilla de 3x3 para mostrar una selección de mis trabajos. Posicioné subtítulos en relación a su sección para colocar la línea de marca detrás de la imagen. Utilicé la metodología BEM para los selectores de CSS.
 
-Sitio en línea: https://portafolio-por-alffonti.netlify.app
+Sitio en línea: https://alffonti.netlify.app/
 
 ## Desarrollado con
 
