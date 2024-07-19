@@ -506,7 +506,7 @@ header {
 /* Individual portfolio item styles */
 
 .intro--portfolio-item {
-    padding: 1em 2em;
+    padding: 1em 2em 0;
 }
 
 .portfolio-item-individual {
@@ -519,6 +519,12 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+
+    @media(width > 600px) {
+        & {
+            margin-top: 0;
+        }
+    }
 }
 
 @media (min-width:700px) {
